@@ -1,0 +1,53 @@
+h1 a,
+h2 a {
+  color: blueviolet;
+  font-family: "Gupter", serif;
+}
+h1 {
+  text-align: center;
+}
+body {
+  padding-left: 15px;
+  background-image: linear-gradient(
+    to top,
+    #d1b66b,
+    #eda578,
+    #f79895,
+    #ec95b9,
+    #cb9bd7,
+    #b0a7eb,
+    #8fb4f6,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+.page-header {
+  margin-top: 10px;
+  padding: 60px, 60px, 60px, 100px;
+}
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+  font-size: 40px;
+  text-decoration: none;
+}
+.content {
+  margin-left: 40px;
+}
+.date {
+  color: sienna;
+}
+.save {
+  float: right;
+}
+.post {
+  margin-bottom: 70px;
+}
+.post h2 a,
+.post h2 a:visited {
+  color: coral;
+}

@@ -1,0 +1,47 @@
+{% load static %}
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+      integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap-theme.min.css"
+      integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="{% static 'css/app.css' %}" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gupter&display=swap"
+      rel="stylesheet"
+    />
+    <title>Test Blog</title>
+  </head>
+  <body>
+    <!--<p>Helloooooooooooooooooooooooooooo</p>-->
+    <div class="page-header">
+      <h1><a href="/">Welcome to My Test blog</a></h1>
+    </div>
+    <div class="content container">
+      <div class="row">
+        <div class="col-md-8">
+          <body>
+            <div class="page-header">
+              <h1><a href="/">My Test Blog</a></h1>
+            </div>
+            <div class="content container">
+              <div class="row">
+                <div class="col-md-8">
+                  {%block content%} {%endblock%}
+                </div>
+              </div>
+            </div>
+          </body>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
